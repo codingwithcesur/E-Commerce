@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Kumbh_Sans;
+  src: url(/fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+
+body {
+  font-family: Kumbh_Sans, sans-serif;
+}
+
+.navbar-container {
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 8px;
+}
+#navbar-title {
+  color: hsl(220, 13%, 13%);
+  font-size: 32px;
+  font-weight: 700;
+}
+#nav .navbar-nav .nav-item {
+  font-size: 16px;
+}
+#nav-cart-icon {
+  width: 20px;
+  margin: 15px 25px 0px 0px;
+}
+#nav-avatar {
+  width: 50px;
+}

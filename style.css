@@ -5,19 +5,13 @@
 
 body {
   font-family: Kumbh_Sans, sans-serif;
+  font-size: 16px;
+  color: hsl(220, 13%, 13%);
 }
 
 .navbar-container {
   border-bottom: 1px solid #cfcfcf;
   padding-bottom: 8px;
-}
-#navbar-title {
-  color: hsl(220, 13%, 13%);
-  font-size: 32px;
-  font-weight: 700;
-}
-#nav .navbar-nav .nav-item {
-  font-size: 16px;
 }
 #nav-cart-icon {
   width: 20px;
@@ -25,4 +19,83 @@ body {
 }
 #nav-avatar {
   width: 50px;
+}
+
+.product-info {
+  margin-top: 90px;
+}
+.product-title {
+  font-weight: 700;
+}
+.product-text {
+  color: hsl(219, 9%, 45%);
+}
+.company-name {
+  font-size: 12px;
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  /* margin-bottom: 10px; */
+}
+.product-padding {
+  padding-right: 120px;
+}
+.product-discounted-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+.product-discount {
+  color: hsl(26, 100%, 55%);
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+  background-color: hsl(25, 100%, 94%);
+  padding: 2px 5px;
+  border-radius: 5px;
+  position: relative;
+  top: -4px;
+}
+.product-price {
+  color: hsl(220, 14%, 75%);
+  font-weight: 700;
+}
+
+#product-1-img {
+  margin-top: 50px;
+  width: 60%;
+  /* height: 55%; */
+  margin-left: 25%;
+}
+
+.product-quantity {
+  height: 40px;
+  width: 170px;
+  margin-top: 20px;
+  margin-left: 2px;
+}
+.quantity-display {
+  background-color: hsl(223, 64%, 98%);
+}
+.plus-minus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(223, 64%, 98%);
+}
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 2px;
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: none;
+}
+.add-to-cart-icon {
+  filter: brightness(0) invert(1);
 }

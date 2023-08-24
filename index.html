@@ -23,62 +23,70 @@
     <div class="navbar-container">
       <nav class="navbar navbar-expand-md">
         <div class="container">
-          <a href="#" class="navbar-brand" id="navbar-logo"
-            ><img src="images/logo.svg" alt="Sneaker Company Logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#nav"
-            aria-controls="nav"
-            aria-label="Expand Navigation"
-          >
-            <div class="navbar-toggler-icon"></div>
-          </button>
-          <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link ms-5">Collections</a>
+          <div class="col-7">
+            <div class="d-flex flex-row-reverse flex-md-row">
+              <a href="#" class="navbar-brand ps-3" id="navbar-logo"
+                ><img src="images/logo.svg" alt="Sneaker Company Logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#nav"
+                aria-controls="nav"
+                aria-label="Expand Navigation"
+              >
+                <div class="navbar-toggler-icon"></div>
+              </button>
+              <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ms-md-5">Collections</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Men</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <ul class="navbar-nav float-end d-flex flex-row">
+              <li class="nav-item col-4">
+                <a href="#" class="nav-link"
+                  ><img
+                    class="col-8 mt-3 col-md-7"
+                    id="nav-cart-icon "
+                    src="images/icon-cart.svg"
+                    alt="Shopping Cart Icon"
+                /></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Men</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Women</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link"
+                  ><img
+                    class="col-8 col-md-7"
+                    id="nav-avatar"
+                    src="images/image-avatar.png"
+                    alt="Random Guy With Glasses Avatar"
+                /></a>
               </li>
             </ul>
           </div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="#" class="nav-link"
-                ><img
-                  id="nav-cart-icon"
-                  src="images/icon-cart.svg"
-                  alt="Shopping Cart Icon"
-              /></a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"
-                ><img
-                  id="nav-avatar"
-                  src="images/image-avatar.png"
-                  alt="Random Guy With Glasses Avatar"
-              /></a>
-            </li>
-          </ul>
         </div>
       </nav>
     </div>
     <div class="sneakers">
       <div class="container">
-        <div class="row">
-          <div class="col">
+        <div class="row justify-content-center">
+          <div class="col-lg col-12">
             <img
               class="img-fluid"
               src="images/image-product-1.jpg"
@@ -86,16 +94,21 @@
               id="product-1-img"
             />
           </div>
-          <div class="col product-info" id="product-1-info">
-            <h5 class="company-name">SNEAKER COMPANY</h5>
-            <h2 class="product-padding mt-3 product-title" id="product-1-title">
-              Fall Limited Edition Sneakers
-            </h2>
-            <p class="product-padding mt-4 product-text" id="product-1-text">
-              These low-profile sneakers are your perfect casual wear companion.
-              Featuring a durable rubber outer sole, they'll withstand
-              everything the weather can offer.
-            </p>
+          <div class="col-lg col-12 product-info" id="product-1-info">
+            <div class="col-md-10 pe-md-4">
+              <h5 class="company-name">SNEAKER COMPANY</h5>
+              <h2
+                class="product-padding mt-3 product-title"
+                id="product-1-title"
+              >
+                Fall Limited Edition Sneakers
+              </h2>
+              <p class="product-padding mt-4 product-text" id="product-1-text">
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer.
+              </p>
+            </div>
             <div class="product-discounted-price">
               $125.00 <span class="product-discount">50%</span>
             </div>

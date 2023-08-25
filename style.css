@@ -23,25 +23,26 @@ body {
 }
 
 .product-title {
+  font-size: 1.6em;
   font-weight: 700;
 }
 .product-text {
   color: hsl(219, 9%, 45%);
 }
 .company-name {
-  font-size: 0.75rem;
+  font-size: 0.75em;
   color: hsl(26, 100%, 55%);
   font-weight: 700;
   /* margin-bottom: 10px; */
 }
 
 .product-discounted-price {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 700;
 }
 .product-discount {
   color: hsl(26, 100%, 55%);
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-weight: 700;
   margin-left: 10px;
   background-color: hsl(25, 100%, 94%);
@@ -52,6 +53,7 @@ body {
 }
 .product-price {
   color: hsl(220, 14%, 75%);
+  font-size: 0.875em;
   font-weight: 700;
 }
 
@@ -63,10 +65,8 @@ body {
 }
 
 .product-quantity {
-  height: 40px;
-  width: 170px;
+  width: clamp(150px, 30vw, 250px);
   margin-top: 20px;
-  margin-left: 2px;
 }
 .quantity-display {
   background-color: hsl(223, 64%, 98%);
@@ -81,13 +81,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 220px;
+  width: clamp(180px, 24vw, 1000px);
   margin-top: 20px;
   margin-left: 2px;
   background-color: hsl(26, 100%, 55%);
   color: white;
-  font-size: 0.875rem;
+  font-size: 0.875em;
   font-weight: 700;
   border-radius: 6px;
   border: none;
@@ -96,49 +95,8 @@ body {
   filter: brightness(0) invert(1);
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
   body {
-    font-size: 24px;
-  }
-  #navbar-logo img {
-    width: 190px;
-    padding-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-  #nav-cart-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 50px;
-    margin-top: 20px !important;
-  }
-  #nav-avatar {
-    width: 60px;
-    height: 60px;
-    margin-right: 50px;
-  }
-}
-
-@media (min-width: 2100px) {
-  body {
-    font-size: 32px;
-  }
-  #navbar-logo img {
-    width: 240px;
-    padding-bottom: 40px;
-    margin-top: 40px;
-    margin-left: 50px;
-  }
-
-  #nav-cart-icon {
-    width: 50px;
-    height: 50px;
-    margin-right: 50px;
-    margin-top: 25px !important;
-  }
-  #nav-avatar {
-    width: 90px;
-    height: 90px;
-    margin-right: 50px;
+    font-size: 1.2vw;
   }
 }

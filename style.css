@@ -11,7 +11,11 @@ body {
 
 .navbar-container {
   border-bottom: 1px solid #cfcfcf;
-  padding-bottom: 8px;
+  padding-bottom: 1em;
+}
+
+.collections {
+  margin-left: 4em;
 }
 
 .sneakers {
@@ -98,5 +102,19 @@ body {
 @media (min-width: 1500px) {
   body {
     font-size: 1.2vw;
+  }
+  #navbar-logo {
+    width: 10em;
+    margin-top: 0.4em;
+  }
+  .nav-margin-top {
+    margin-top: 1.4em;
+  }
+  #nav-cart-icon {
+    width: 2em;
+    margin-right: 3em;
+  }
+  #nav-avatar {
+    width: 3em;
   }
 }

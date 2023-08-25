@@ -61,11 +61,18 @@ body {
   font-weight: 700;
 }
 
-#product-1-img {
-  margin-top: 50px;
-  width: 60%;
-  /* height: 55%; */
-  margin-left: 25%;
+#product-1-img-1 {
+  margin-top: 4em;
+  width: 20em;
+}
+
+.product-thumbnails {
+  margin-top: 1em;
+  gap: 1.33em;
+}
+
+.product-thumbnail {
+  width: 4em;
 }
 
 .product-quantity {
@@ -104,6 +111,15 @@ body {
   filter: brightness(0) invert(1);
 }
 
+@media (min-width: 991px) {
+  #product-1-img-1 {
+    margin-left: 12em;
+  }
+
+  #product-1-thumbnail-1 {
+    margin-left: 12em;
+  }
+}
 @media (min-width: 1500px) {
   body {
     font-size: 1.2vw;

@@ -36,7 +36,7 @@
               </button>
 
               <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav nav-left">
                   <li class="nav-item">
                     <a href="#" class="nav-link collections">Collections</a>
                   </li>
@@ -92,7 +92,7 @@
     <div class="sneakers">
       <div class="container-fluid">
         <div class="row justify-content-center">
-          <div class="col-lg col-12">
+          <div class="col-lg col-12 product-imgs">
             <img
               class="img-fluid"
               src="images/image-product-1.jpg"
@@ -122,12 +122,10 @@
               $250.00
             </div>
             <div class="product-buy row">
-              <div
-                class="product-quantity input-group col-5 border-2 rounded-2"
-              >
+              <div class="product-quantity d-flex border-2 rounded-2">
                 <div class="col-3 plus-minus border-0">
                   <img
-                    class="btn"
+                    class="btn plus-minus-btn"
                     src="images/icon-minus.svg"
                     alt="Plus Icon"
                   />
@@ -139,10 +137,14 @@
                   class="quantity-1"
                 />
                 <div class="col-3 plus-minus border-0">
-                  <img class="btn" src="images/icon-plus.svg" alt="Plus Icon" />
+                  <img
+                    class="btn plus-minus-btn"
+                    src="images/icon-plus.svg"
+                    alt="Plus Icon"
+                  />
                 </div>
               </div>
-              <button class="add-to-cart col-4 py-2">
+              <button class="add-to-cart py-2">
                 <img
                   class="add-to-cart-icon col-1 me-2"
                   src="images/icon-cart.svg"

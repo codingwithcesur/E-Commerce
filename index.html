@@ -91,55 +91,71 @@
     </div>
     <div class="sneakers">
       <div class="container-fluid">
-        <div class="row row-cols-1">
-          <div class="col-lg product-imgs d-flex flex-column">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div
+            class="col-lg col product-imgs d-flex flex-column align-items-center align-items-md-start"
+          >
             <img
-              class="img-fluid"
+              class="img-fluid main-img"
               src="images/image-product-1.jpg"
               alt="White & gold colored sneakers"
               id="product-1-img-1"
             />
             <div class="d-flex product-thumbnails">
-              <img
-                class="product-thumbnail img-fluid"
+              <div
+                class="product-thumbnail thumbnail-1 thumb-active"
                 id="product-1-thumbnail-1"
-                src="images/image-product-1-thumbnail.jpg"
-                alt="White & gold colored sneakers"
-              />
-              <img
-                class="product-thumbnail img-fluid"
-                id="product-1-thumbnail-2"
-                src="images/image-product-2-thumbnail.jpg"
-                alt="White & gold
-              colored sneakers from the side"
-              />
-              <img
-                class="product-thumbnail img-fluid"
-                id="product-1-thumbnail-3"
-                src="images/image-product-3-thumbnail.jpg"
-                alt="White & gold sneaker from front"
-              />
-              <img
-                class="product-thumbnail img-fluid"
-                id="product-1-thumbnail-4"
-                src="images/image-product-4-thumbnail.jpg"
-                alt="White & gold
-              sneaker from other side"
-              />
+                data-number="1"
+              >
+                <!-- <img
+                  class="img-fluid"
+                  id="product-1-thumbnail-1"
+                  src="images/image-product-1-thumbnail.jpg"
+                  alt="White & gold colored sneakers"
+                /> -->
+              </div>
+              <div class="product-thumbnail thumbnail-2" data-number="2">
+                <!-- <img
+                  class="img-fluid"
+                  id="product-1-thumbnail-2"
+                  src="images/image-product-2-thumbnail.jpg"
+                  alt="White & gold colored sneakers from the side"
+                /> -->
+              </div>
+              <div class="product-thumbnail thumbnail-3" data-number="3">
+                <!-- <img
+                  class="img-fluid"
+                  id="product-1-thumbnail-3"
+                  src="images/image-product-3-thumbnail.jpg"
+                  alt="White & gold sneaker from front"
+                /> -->
+              </div>
+              <div class="product-thumbnail thumbnail-4" data-number="4">
+                <!-- <img
+                  class="img-fluid"
+                  id="product-1-thumbnail-4"
+                  src="images/image-product-4-thumbnail.jpg"
+                  alt="White & gold colored sneakers from the other side"
+                /> -->
+              </div>
             </div>
           </div>
-          <div class="col-lg row-cols-1 product-info ms-2" id="product-1-info">
+          <div
+            class="col-lg-6 col-9 product-info mx-auto mx-lg-0"
+            id="product-1-info"
+          >
             <div class="col-lg-10 pe-lg-4">
               <h5 class="company-name">SNEAKER COMPANY</h5>
               <h2
                 class="product-padding mt-3 product-title"
                 id="product-1-title"
               >
-                Fall Limited Edition Sneakers
+                Fall Limited Edition <br />
+                Sneakers
               </h2>
               <p class="product-padding mt-4 product-text" id="product-1-text">
-                These low-profile sneakers are your perfect casual wear
-                companion. Featuring a durable rubber outer sole, they'll
+                These low-profile sneakers are your perfect casual wear <br />
+                companion. Featuring a durable rubber outer sole, they'll <br />
                 withstand everything the weather can offer.
               </p>
             </div>

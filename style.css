@@ -1,6 +1,6 @@
 @font-face {
   font-family: Kumbh_Sans;
-  src: url(/fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+  src: url(fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\wght.ttf);
 }
 
 body {
@@ -69,26 +69,6 @@ body {
 #product-1-img-1 {
   margin-top: 4em;
   width: 20em;
-}
-
-.thumbnail-1 {
-  background-image: url(images/image-product-1-thumbnail.jpg);
-  background-size: cover;
-}
-
-.thumbnail-2 {
-  background-image: url(images/image-product-2-thumbnail.jpg);
-  background-size: cover;
-}
-
-.thumbnail-3 {
-  background-image: url(images/image-product-3-thumbnail.jpg);
-  background-size: cover;
-}
-
-.thumbnail-4 {
-  background-image: url(images/image-product-4-thumbnail.jpg);
-  background-size: cover;
 }
 
 .product-thumbnails {

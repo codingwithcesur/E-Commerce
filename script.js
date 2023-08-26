@@ -3,6 +3,9 @@ const mainImage = document.querySelector(".main-img");
 let counter = 0;
 
 thumbnails.forEach((thumbnail) => {
+  counter = thumbnail.getAttribute("data-number");
+  thumbnail.style.backgroundImage = `url(images/image-product-${counter}-thumbnail.jpg)`;
+  thumbnail.style.backgroundSize = "cover";
   thumbnail.addEventListener("click", () => {
     counter = thumbnail.getAttribute("data-number");
     makeActive(thumbnail);

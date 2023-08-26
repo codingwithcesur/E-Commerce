@@ -31,6 +31,8 @@ modalThumbnails.forEach((thumbnail) => {
   });
 });
 
+counter = 1;
+
 modalArrows.forEach((arrow) => {
   arrow.addEventListener("click", () => {
     if (arrow.classList.contains("modal-arrow-left")) {

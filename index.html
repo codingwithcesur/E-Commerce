@@ -20,6 +20,38 @@
     <title>E-Commerce</title>
   </head>
   <body>
+    <div class="modal" id="product-1-modal">
+      <div class="modal-dialog">
+        <div class="modal-content" id="modal-size">
+          <div class="img-fluid d-flex" id="modal-img">
+            <button
+              class="btn btn-outline-secondary border-0 modal-arrows modal-arrow-left"
+            >
+              <img
+                class="modal-arrow"
+                src="images/icon-previous.svg"
+                alt="previous picture button"
+              />
+            </button>
+            <button
+              class="btn btn-outline-secondary border-0 modal-arrows modal-arrow-right"
+            >
+              <img
+                class="modal-arrow"
+                src="images/icon-next.svg"
+                alt="next picture button"
+              />
+            </button>
+          </div>
+          <div class="d-flex modal-thumbnails">
+            <div class="modal-thumbnail" data-number="1"></div>
+            <div class="modal-thumbnail" data-number="2"></div>
+            <div class="modal-thumbnail" data-number="3"></div>
+            <div class="modal-thumbnail" data-number="4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="navbar-container">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -96,50 +128,22 @@
             class="col-lg col product-imgs d-flex flex-column align-items-center align-items-md-start"
           >
             <img
-              class="img-fluid main-img"
+              class="img-fluid main-img btn border-0 p-0"
               src="images/image-product-1.jpg"
               alt="White & gold colored sneakers"
               id="product-1-img-1"
+              data-bs-toggle="modal"
+              data-bs-target="#product-1-modal"
             />
-            <div class="d-flex product-thumbnails">
-              <div
-                class="product-thumbnail thumb-active"
-                id="product-1-thumbnail-1"
-                data-number="1"
-              >
-                <!-- <img
-                  class="img-fluid"
-                  id="product-1-thumbnail-1"
-                  src="images/image-product-1-thumbnail.jpg"
-                  alt="White & gold colored sneakers"
-                /> -->
-              </div>
-              <div class="product-thumbnail" data-number="2">
-                <!-- <img
-                  class="img-fluid"
-                  id="product-1-thumbnail-2"
-                  src="images/image-product-2-thumbnail.jpg"
-                  alt="White & gold colored sneakers from the side"
-                /> -->
-              </div>
-              <div class="product-thumbnail" data-number="3">
-                <!-- <img
-                  class="img-fluid"
-                  id="product-1-thumbnail-3"
-                  src="images/image-product-3-thumbnail.jpg"
-                  alt="White & gold sneaker from front"
-                /> -->
-              </div>
-              <div class="product-thumbnail" data-number="4">
-                <!-- <img
-                  class="img-fluid"
-                  id="product-1-thumbnail-4"
-                  src="images/image-product-4-thumbnail.jpg"
-                  alt="White & gold colored sneakers from the other side"
-                /> -->
-              </div>
+
+            <div class="d-flex product-thumbnails" id="product-1-thumbnail-1">
+              <div class="product-thumbnail thumb-active" data-number="1"></div>
+              <div class="product-thumbnail" data-number="2"></div>
+              <div class="product-thumbnail" data-number="3"></div>
+              <div class="product-thumbnail" data-number="4"></div>
             </div>
           </div>
+
           <div
             class="col-lg-6 col-9 product-info mx-auto mx-lg-0"
             id="product-1-info"

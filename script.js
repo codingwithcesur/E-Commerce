@@ -3,6 +3,7 @@ const mainImage = document.querySelector(".main-img");
 const modalImg = document.querySelector("#modal-img");
 const modalThumbnails = document.querySelectorAll(".modal-thumbnail");
 const modalArrows = document.querySelectorAll(".modal-arrows");
+const navCartIcon = document.querySelector(".nav-cart-icon");
 let counter = 0;
 
 thumbnails.forEach((thumbnail) => {
@@ -51,6 +52,11 @@ modalArrows.forEach((arrow) => {
       makeActive(modalThumbnails[counter - 1]);
     }
   });
+});
+
+navCartIcon.addEventListener("click", () => {
+  const shoppingCart = document.querySelector(".shopping-cart");
+  shoppingCart.classList.toggle("d-none");
 });
 
 const makeActive = (element) => {

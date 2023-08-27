@@ -25,6 +25,10 @@
         <div class="modal-content" id="modal-size">
           <div class="img-fluid d-flex" id="modal-img">
             <button
+              class="btn btn-outline-danger border-0 modal-close btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+            <button
               class="btn btn-outline-secondary border-0 modal-arrows modal-arrow-left"
             >
               <img
@@ -52,6 +56,7 @@
         </div>
       </div>
     </div>
+
     <div class="navbar-container">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -101,7 +106,7 @@
               <li class="nav-item col-5">
                 <a href="#" class="nav-link"
                   ><img
-                    class="col-7 col-lg-7 mt-3 img-fluid"
+                    class="col-7 col-lg-7 mt-3 img-fluid nav-cart-icon"
                     id="nav-cart-icon"
                     src="images/icon-cart.svg"
                     alt="Shopping Cart Icon"
@@ -115,6 +120,10 @@
                     src="images/image-avatar.png"
                     alt="Random Guy With Glasses Avatar"
                 /></a>
+                <div class="card shopping-cart d-none">
+                  <div class="card-header fw-bold">Cart</div>
+                  <div class="card-body d-flex"></div>
+                </div>
               </li>
             </ul>
           </div>

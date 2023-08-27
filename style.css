@@ -212,6 +212,12 @@ body {
   background-color: #f1f1f1;
 }
 
+.shopping-cart .card-body p {
+  display: flex;
+  justify-content: center;
+  color: hsl(219, 9%, 45%);
+  font-weight: 700;
+}
 @media (max-width: 990px) {
   body {
     font-size: 12px !important;

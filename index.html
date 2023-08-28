@@ -115,14 +115,16 @@
               <li class="nav-item col-7">
                 <a href="#" class="nav-link"
                   ><img
-                    class="col-9 col-lg-8 img-fluid"
+                    class="col-9 col-lg-8 img-fluid nav-avatar"
                     id="nav-avatar"
                     src="images/image-avatar.png"
                     alt="Random Guy With Glasses Avatar"
                 /></a>
                 <div class="card shopping-cart d-none">
                   <div class="card-header fw-bold">Cart</div>
-                  <div class="card-body d-flex flex-column overflow-auto"></div>
+                  <div class="card-body d-flex flex-column overflow-auto">
+                    <p>- Your cart is empty. -</p>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -172,8 +174,9 @@
                 withstand everything the weather can offer.
               </p>
             </div>
-            <div class="product-discounted-price">
-              $125.00 <span class="product-discount">50%</span>
+            <div class="product-discounted-price d-flex">
+              <p class="discounted-price">$125.00</p>
+              <span class="product-discount">50%</span>
             </div>
             <div class="product-price text-decoration-line-through">
               $250.00
@@ -190,7 +193,7 @@
                 <input
                   class="quantity-display text-center border-0 col-6"
                   type="text"
-                  value="0"
+                  value="1"
                   class="quantity-1"
                 />
                 <div class="col-3 plus-minus plus border-0">

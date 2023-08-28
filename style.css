@@ -53,12 +53,13 @@ body {
   color: hsl(26, 100%, 55%);
   font-size: 0.875em;
   font-weight: 700;
-  margin-left: 10px;
+  margin-left: 0.5em;
   background-color: hsl(25, 100%, 94%);
-  padding: 2px 5px;
+  padding: 2px 5px 0px 5px;
+  height: 1.7em;
+  margin-top: 0.1em;
   border-radius: 5px;
   position: relative;
-  top: -4px;
 }
 .product-price {
   color: hsl(220, 14%, 75%);
@@ -218,6 +219,16 @@ body {
   color: hsl(219, 9%, 45%);
   font-weight: 700;
 }
+
+.avatar-active {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 100%;
+}
+
+.quantity {
+  margin-top: 1.6em;
+}
+
 @media (max-width: 990px) {
   body {
     font-size: 12px !important;
